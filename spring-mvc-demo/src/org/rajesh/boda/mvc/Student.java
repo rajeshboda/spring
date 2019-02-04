@@ -1,4 +1,10 @@
 package org.rajesh.boda.mvc;
+/**
+ * This is a Student Controller
+ * @author I336121
+ *
+ */
+
 
 public class Student {
 
@@ -12,6 +18,9 @@ public class Student {
 	private String[] operatingSystems;
 	// private LinkedHashMap<String, String> countryOptions;
 
+	/**
+	 * This is a default constructor 
+	 */
 	public Student() {
 
 		// // populate country options: used ISO country code
@@ -25,6 +34,10 @@ public class Student {
 
 	}
 
+	/**
+	 * This is a getter
+	 * @return
+	 */
 	public String getFirstName() {
 		return firstName;
 	}
