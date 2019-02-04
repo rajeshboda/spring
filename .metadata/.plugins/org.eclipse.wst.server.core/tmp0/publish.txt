@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Feb 04 10:29:13 IST 2019
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\I336121\\oxy-workspace\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.0.2.RELEASE.jar=WEB-INF/lib/spring-web-5.0.2.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\I336121\\oxy-workspace\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.0.2.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.0.2.RELEASE-sources.jar

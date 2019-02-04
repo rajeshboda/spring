@@ -1,0 +1,13 @@
+body {
+    background-color: darkslategrey;
+}
+
+h3 {
+    color: coral;
+    text-align: left;
+}
+
+p {
+    font-family: cursive;
+    font-size: 20px;
+}

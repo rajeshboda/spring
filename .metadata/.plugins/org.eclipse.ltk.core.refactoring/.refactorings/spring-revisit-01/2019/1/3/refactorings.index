@@ -1,0 +1,17 @@
+1547387676909	Rename local variable 'trackCoach'
+1547387681916	Rename local variable 'coache'
+1547388001695	Rename local variable 'fortuneService'
+1547453701873	Rename resource 'sprots.properties'
+1547454316636	Copy compilation unit
+1547454342385	Rename local variable 'theFortuneService'
+1547454621413	Rename field 'myRandomCoach'
+1547463108624	Copy file
+1547463201569	Rename type 'BeanScopeDemo'
+1547463998260	Rename method 'initMethod'
+1547464008721	Rename method 'destroyMethod'
+1547464020458	Copy file
+1547464029476	Delete element
+1547465086192	Copy file
+1547465210888	Copy compilation unit
+1547465226348	Rename resource 'beanLifeCycle-applicationContext2.xml'
+1547542894879	Copy file

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- <context:property-placeholder location="classpath:sport.properties"/> -->
+	<bean id="myFortune"
+		class="com.rajesh.springdemo.HappyFortuneService" />
+
+	<bean id="myCoach" class="com.rajesh.springdemo.BaseBallCoach">
+		<constructor-arg ref="myFortune" />
+
+	</bean>
+
+	<bean id="myCricketCoach"
+		class="com.rajesh.springdemo.BaseBallCoach">
+		<!-- Setter injection -->
+		<property name="emailAddress" value="${foo.team}"></property>
+		<property name="team" value="${foo.email}"></property>
+		<property name="fortuneService" ref="myFortune"></property>
+
+	</bean>
+
+
+	<bean id="myLoggerConfig"
+		class="com.rajesh.springdemo.MyLoggerConfig" init-method="initLogger">
+		<property name="rootLoggerLevel" value="INFO" />
+		<property name="printedLoggerLevel" value="INFO" />
+	</bean>
+
+</beans>
+    

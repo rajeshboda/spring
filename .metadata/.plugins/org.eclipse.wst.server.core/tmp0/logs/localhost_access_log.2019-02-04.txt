@@ -1,0 +1,7 @@
+127.0.0.1 - - [04/Feb/2019:10:29:50 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:10:29:51 +0530] "GET /spring-mvc-demo/ HTTP/1.1" 200 558
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:10:29:51 +0530] "GET /spring-mvc-demo/resources/js/simple-test.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:10:29:51 +0530] "GET /spring-mvc-demo/resources/css/styles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:10:29:51 +0530] "GET /spring-mvc-demo/resources/images/spring-logo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:10:29:54 +0530] "GET /spring-mvc-demo/student/showForm HTTP/1.1" 200 1871
+0:0:0:0:0:0:0:1 - - [04/Feb/2019:10:30:06 +0530] "POST /spring-mvc-demo/student/processForm HTTP/1.1" 200 473

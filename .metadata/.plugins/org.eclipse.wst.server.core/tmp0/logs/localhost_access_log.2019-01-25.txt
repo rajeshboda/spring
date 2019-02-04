@@ -1,0 +1,6 @@
+127.0.0.1 - - [25/Jan/2019:08:25:22 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Jan/2019:08:26:17 +0530] "GET /spring-mvc-demo/WEB-INF/view/main-menu.jsp HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [25/Jan/2019:08:26:27 +0530] "GET /spring-mvc-demo/ HTTP/1.1" 200 262
+0:0:0:0:0:0:0:1 - - [25/Jan/2019:08:26:29 +0530] "GET /spring-mvc-demo/showForm HTTP/1.1" 200 262
+0:0:0:0:0:0:0:1 - - [25/Jan/2019:08:26:34 +0530] "GET /spring-mvc-demo/processForm?studentName=Rajesh HTTP/1.1" 200 152
+0:0:0:0:0:0:0:1 - - [25/Jan/2019:08:26:40 +0530] "GET /spring-mvc-demo/processForm?studentName=Rajesh HTTP/1.1" 200 152

@@ -1,0 +1,13 @@
+body {
+    background-color: #82b4c4;
+}
+
+h3 {
+    color: red;
+    text-align: left;
+}
+
+p {
+    font-family: cursive;
+    font-size: 20px;
+}
